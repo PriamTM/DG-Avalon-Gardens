@@ -1,5 +1,6 @@
 {
   "name": "avalon-gardens",
+  "homepage": "https://priamtm.github.io/DG-Avalon-Gardens/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,9 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "host": "vite --host"
+    "host": "vite --host",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
