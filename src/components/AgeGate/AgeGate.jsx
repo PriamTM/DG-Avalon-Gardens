@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import styles from './AgeGate.module.css'
 
 function AgeGate({ onVerify }) {
@@ -17,10 +18,16 @@ function AgeGate({ onVerify }) {
         <h1 className={styles.brand}>Avalon Gardens</h1>
 
         {declined ? (
-          <p className={styles.message}>
-            You must meet Colorado's age requirements to view this site. Please check back
-            once you're eligible.
-          </p>
+          <>
+            <p className={styles.message}>
+              You must meet Colorado's age requirements to view this site. Please check back
+              once you're eligible.
+            </p>
+            <div>
+              <p>You can call our experts for more information about this:</p>
+              <p>(303) 555-7712</p>
+            </div>
+          </>
         ) : (
           <>
             <p className={styles.message}>

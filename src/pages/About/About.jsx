@@ -4,7 +4,7 @@ import { family } from '../../data/family'
 import SectionHero from '../../components/Hero/SectionHero';
 import styles from './About.module.css'
 import canFarm from '../../assets/can-farm-avalon.jpg'
-import cultivators from '../../assets/avalon-cultivators.jpg'
+import cultivators from '../../assets/avalon-cultivators.webp'
 import 'swiper/css';
 import 'swiper/css/navigation';
 

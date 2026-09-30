@@ -2,7 +2,7 @@ import { storeInfo } from '../../data/storeInfo'
 import MapPlaceholder from '../../components/MapPlaceholder/MapPlaceholder'
 import SectionHero from '../../components/Hero/SectionHero';
 import styles from './Contact.module.css'
-import contactImage from '../../assets/contact.jpg';
+import contactImage from '../../assets/contact.webp';
 
 function Contact() {
   const fullAddress = `${storeInfo.address.street}, ${storeInfo.address.city}, ${storeInfo.address.state} ${storeInfo.address.zip}`

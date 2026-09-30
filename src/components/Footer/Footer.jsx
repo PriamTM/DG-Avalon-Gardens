@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { storeInfo } from '../../data/storeInfo'
 import styles from './Footer.module.css'
 
@@ -16,10 +17,10 @@ function Footer() {
             <p className={styles.small}>{storeInfo.medLicense}</p>
           </div>
           <nav className={styles.links}>
-            <a href="/">Home</a>
-            <a href="/menu">Menu</a>
-            <a href="/about">About</a>
-            <a href="/contact">Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="/menu">Menu</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
           </nav>
         </div>
 

@@ -1,6 +1,7 @@
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
+import { Link } from 'react-router-dom'
 
 const FAQ = () => {
   const ExpandIcon = (
@@ -23,6 +24,10 @@ const FAQ = () => {
               In all legally licensed dispensaries throughout Colorado, good sir! If you're looking for the Round Table
               Dispensary—which is our single home location—you can visit us at Valley Dirtlands, in Greeley, Colorado.
             </p>
+            <div>
+              <p>Call the Avalon Gardens social media manager for special offers!</p>
+              <Link>(303) 555-4139</Link>
+            </div>
           </AccordionDetails>
         </Accordion>
         <Accordion>

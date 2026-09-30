@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { storeInfo } from '../../data/storeInfo'
 import styles from './Home.module.css'
 import dayjs from 'dayjs';
-import neonLitGarden from '../../assets/Neon_lit_garden.jpeg'
+import neonLitGarden from '../../assets/Neon_lit_garden.webp'
 import dispensary from '../../assets/dispensary.jpeg'
 
 function Home() {

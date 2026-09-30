@@ -3,7 +3,7 @@ import ProductCard from '../../components/ProductCard/ProductCard'
 import SectionHero from '../../components/Hero/SectionHero';
 import { Link } from 'react-router-dom'
 import styles from './Menu.module.css'
-import menuImage from '../../assets/menu-image.jpg'
+import menuImage from '../../assets/menu-image.webp'
 
 function Menu() {
   return (
@@ -24,8 +24,16 @@ function Menu() {
           )
         })}
         <section>
-          <p>Still on the fence?</p>
-          <Link to="/branhorn">Check out the multiple benefits of Cannabis!</Link>
+          <div className="flex justify-between">
+            <div>
+              <p>Still on the fence?</p>
+              <Link to="/branhorn">Check out the multiple benefits of Cannabis!</Link>
+            </div>
+            <div>
+              <p>Call the Avalon Gardens social media manager for special offers!</p>
+              <Link>(303) 555-4139</Link>
+            </div>
+          </div>
         </section>
       </div>
     </>
