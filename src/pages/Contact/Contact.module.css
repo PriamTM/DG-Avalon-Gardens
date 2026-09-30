@@ -1,0 +1,53 @@
+.page {
+  padding: 3.5rem 0 4rem;
+}
+
+.eyebrow {
+  color: var(--color-neon);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+  align-items: start;
+}
+
+.grid h2 {
+  color: var(--color-neon-soft);
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.grid h2:first-child {
+  margin-top: 0;
+}
+
+.hours {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.hours td {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-dim);
+}
+
+.hours td:first-child {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

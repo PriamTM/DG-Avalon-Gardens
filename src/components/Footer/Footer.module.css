@@ -1,0 +1,61 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-bg-alt);
+  margin-top: auto;
+  padding: 3rem 0 2rem;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.brand {
+  font-family: var(--font-display);
+  color: var(--color-neon);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.4rem;
+}
+
+.small {
+  font-size: 0.85rem;
+  margin: 0 0 0.2rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.legal {
+  font-size: 0.75rem;
+  color: var(--color-text-dim);
+  border-top: 1px solid var(--color-border);
+  padding-top: 1.25rem;
+  max-width: 900px;
+}
+
+.portfolio {
+  font-size: 0.75rem;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.copy {
+  font-size: 0.75rem;
+  color: var(--color-text-dim);
+  margin: 0;
+}

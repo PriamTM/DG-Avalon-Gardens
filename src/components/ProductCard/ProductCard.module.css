@@ -1,0 +1,58 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.badge {
+  align-self: flex-start;
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: 700;
+}
+
+.information {
+  display: grid;
+  grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.thc {
+  color: var(--color-neon-soft);
+  font-size: 0.9rem;
+}
+
+.price {
+  color: var(--color-text);
+  font-size: 1.05rem;
+}
+
+.unit {
+  color: var(--color-text-dim);
+  font-weight: 500;
+  font-size: 0.75rem;
+}

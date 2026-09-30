@@ -1,0 +1,36 @@
+.page {
+  padding: 3.5rem 0 4rem;
+}
+
+.eyebrow {
+  color: var(--color-neon);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.disclaimer {
+  font-size: 0.85rem;
+  color: var(--color-accent);
+  max-width: 640px;
+  margin-bottom: 2.5rem;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+.section h2 {
+  color: var(--color-neon-soft);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}

@@ -1,0 +1,63 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: radial-gradient(circle at 50% 20%, rgba(57, 255, 20, 0.12), transparent 60%),
+    rgba(4, 6, 3, 0.94);
+  backdrop-filter: blur(6px);
+}
+
+.card {
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 2.5rem 2rem;
+  box-shadow: var(--shadow-neon);
+}
+
+.brand {
+  font-family: var(--font-display);
+  color: var(--color-neon);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-size: 1.9rem;
+}
+
+.message {
+  color: var(--color-text-dim);
+  margin-bottom: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.decline {
+  background: none;
+  border: none;
+  color: var(--color-text-dim);
+  text-decoration: underline;
+  font-size: 0.85rem;
+}
+
+.decline:hover {
+  color: var(--color-text);
+}
+
+.disclaimer {
+  margin: 1.5rem 0 0;
+  font-size: 0.72rem;
+  color: var(--color-text-dim);
+  opacity: 0.7;
+}
