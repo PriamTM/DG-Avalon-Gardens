@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Layout from './components/Layout/Layout'
 import AgeGate from './components/AgeGate/AgeGate'
@@ -23,7 +23,7 @@ function App() {
     <>
       <div aria-hidden={!verified} inert={!verified || undefined}>
         <ThemeProvider theme={darkTheme}>        
-          <BrowserRouter>
+          <HashRouter>
             <Routes>
               <Route element={<Layout />}>
                 <Route index element={<Home />} />
@@ -35,7 +35,7 @@ function App() {
                 <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>
-          </BrowserRouter>
+          </HashRouter>
         </ThemeProvider>
       </div>
 

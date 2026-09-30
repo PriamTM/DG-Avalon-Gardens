@@ -1,4 +1,5 @@
 import styles from './MapPlaceholder.module.css'
+import mapImage from '../../assets/location.png'
 
 function MapPlaceholder({ address }) {
   const randomInt = Math.floor(Math.random() * 21);
@@ -12,7 +13,7 @@ function MapPlaceholder({ address }) {
       ): (
         <a href="https://maps.app.goo.gl/ujMb4DDhE8ZBQ2vC6" target="_blank" rel="noopener noreferrer">
           <img
-            src="src/assets/location.png"
+            src={mapImage}
             alt="Unusual Google Maps Location"
           />
         </a>

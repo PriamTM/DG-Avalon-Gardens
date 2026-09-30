@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: 'DG-Avalon-Gardens'
+  base: '/DG-Avalon-Gardens'
 })
