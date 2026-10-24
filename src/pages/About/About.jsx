@@ -16,7 +16,7 @@ const About = () => {
       spaceBetween: 16
     },
     480: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       slidesPerGroup: 3,
       spaceBetween: 16
     },
@@ -74,7 +74,6 @@ const About = () => {
             breakpoints={breakpoints}
             navigation={true}
             modules={[Navigation]}
-            // className="mySwiper"
             slidesPerView="1"
           >
             {family.filter((member) => member.category === 'leadership').map((member) => (  
@@ -132,7 +131,6 @@ const About = () => {
             breakpoints={breakpoints}
             navigation={true}
             modules={[Navigation]}
-            // className="mySwiper"
             slidesPerView="1"
           >
             {family.filter((member) => member.category === 'cultivators').map((member) => (  
@@ -161,7 +159,6 @@ const About = () => {
             breakpoints={breakpoints}
             navigation={true}
             modules={[Navigation]}
-            // className="mySwiper"
             slidesPerView="2"
           >
             {family.filter((member) => member.category === 'technicians').map((member) => (  
@@ -185,5 +182,4 @@ const About = () => {
     </>
   )
 }
-// className="grid grid-cols-4 gap-12"
 export default About

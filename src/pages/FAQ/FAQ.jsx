@@ -78,13 +78,19 @@ const FAQ = () => {
           <AccordionSummary
             expandIcon={<span className="text-xl">+</span>}
           >
-            <h6 className="text-lg">Is it true Avalon Gardens</h6>
+            <h6 className="text-lg">Why do I keep falling through the roof?</h6>
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              None. We know no cannabis products can every truly guarantee a zero percent chance of side effects, but, at Avalon
-              Gardens, we believe we've come really close to it. Our goal is to make every cannabis experience as pleasurable as possible.
+              All experiences are different. The trick here is to find the right experience for you, and get to know it. If you analyze it,
+              what do you find? Our goal here is to keep everyone as informed as they can—because knowledge is power. And getting to know your
+              unique individual experience, is also a way to do it. But hey, if you are this knowledgeable, we might just as well hire you into the
+              Avalon Family!
             </p>
+            <div>
+              <p>Call the Avalon Gardens social media manager, Andrew Nate, for special offers!</p>
+              <Link>(303) 555-1212</Link>
+            </div>
           </AccordionDetails>
         </Accordion> */}
       </div>

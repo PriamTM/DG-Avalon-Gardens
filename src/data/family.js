@@ -149,11 +149,11 @@ export const family = [
   },
   {
     name: 'Taylyn Freeman',
-    position: '',
+    position: 'employment terminated',
     category: 'budtenders',
     image: {
       path: ' ',
-      alt: 'terminated',
+      alt: '',
     }
   },
   {
